@@ -1,0 +1,2945 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Josefin+Sans:300,400,600|Open+Sans:800|Source+Sans+Pro:400,400i,600,600i|Special+Elite');
+
+body {
+	font-family:CopperplateGothicBold;
+}
+@font-face {
+    font-family: JournalOT-Bold;
+    src: url(../fonts/JournalOT-Bold.otf);
+}
+@font-face {
+    font-family: PacificClipperSGOTBd;
+    src: url(../fonts/PacificClipperSGOTBd.otf);
+}
+@font-face {
+    font-family: CalibriBold;
+    src: url(../fonts/CalibriBold.ttf);
+}
+@font-face {
+    font-family: Calibri;
+    src: url(../fonts/Calibri.ttf);
+}
+@font-face {
+    font-family: PacificClipperSGOTBk;
+    src: url(../fonts/PacificClipperSGOTBk.otf);
+}
+@font-face {
+    font-family: AbadiMTCondensedExtraBold;
+    src: url(../fonts/AbadiMTCondensedExtraBold.ttf);
+}
+@font-face {
+    font-family: AmericanTypewriterStd-Med;
+    src: url(../fonts/AmericanTypewriterStd-Med.otf);
+}
+@font-face {
+    font-family: hand_writing_mutlu;
+    src: url(../fonts/hand_writing_mutlu.ttf);
+}
+@font-face {
+    font-family: Journal-Bold;
+    src: url(../fonts/Journal-Bold.ttf);
+}
+
+/************************top_header_start_here*****************/
+.dry_rub h3 {
+    color: #231f20;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6em;
+    text-align: right;
+}
+span.food_service {
+    color: #f03643;
+    margin-left: 4%;
+}
+.dry_rub {
+    text-align: right;
+}
+/************************top_header_end_here*****************/
+
+/************************navbar_start_here*****************/
+.navbar-brand { position: relative; z-index: 2; }
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
+    
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+}
+.navbar-brand>img {
+    display: block;
+    margin-top: -40px;
+    width: 80% !important;
+    transform: rotate(-6deg);
+    height: 100px;
+}
+section.nav_bar {
+    background: #231f20;
+}
+.nav_bar .navbar-nav>li {
+    float: left;
+    margin-left: 40px;
+}
+.nav_bar .navbar-nav>li>a {
+    font-family: JournalOT-Bold;
+    color: #fff;
+    font-size: 1.4em;
+}
+.nav_bar .navbar {
+    margin: 0px;
+}
+/************************navbar_end_here*****************/
+
+
+
+/************************Seals_start_here*****************/
+section.Seals {
+    background-image: url(../images/TENDERLOINCharCrust1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+.jui_ces p {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 1em;
+}
+button.ama_zing {
+    background: #9f5313;
+    border: none;
+    border-radius: 22px;
+    font-size: 24px;
+    float: right;
+    margin-top: 20%;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    font-size: 0.3em;
+}
+button.ama_zing:hover {
+    background: #9f5313;
+}
+/************************Seals_end_here*****************/
+
+
+/************************sorry_page_start_here*****************/
+
+
+
+
+.sorr_text h1 {
+    font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	font-style: normal;
+    color: #231f20;
+    font-size: 5em;
+}
+.sorr_text p {
+    font-family: CalibriBold;
+    color: #231f20;
+    font-size: 50px;
+}
+.sorr_text p {
+    font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	font-style: normal;
+    color: #231f20;
+    margin: 0px;
+    font-size: 3em;
+}
+section.sorry_section {
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+/************************sorry_page_end_here*****************/
+
+/************************FAMILY_start_here*****************/
+
+section.FAMILY {
+    background-image: url(../images/CharCrustHorizRedArtBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.FAMILY img.img-responsive {
+    margin-top: -101%;
+    margin-bottom: -19%;
+}
+.fam_lll i {
+    margin-right: 6%;
+    font-size: 43px;
+}
+.fam_lll h3 {
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    color: #fff;
+    text-align: left;
+    display: inline-flex;
+    font-size: 1.5em;
+}
+.TENDER h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 11%;
+    margin-bottom: 3%;
+    font-size: 3em;
+}
+.our_char p {
+    margin: 0 0 10px;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight:300 !important;
+	font-style: normal;
+    padding-left: 16%;
+    font-size: 2em;
+}
+.our_char1 p {
+    margin: 0 0 10px;
+    font-family: 'Josefin Sans', sans-serif; font-weight:300; font-style: normal;
+    font-size: 2em;
+    padding-right: 16%;
+}
+/************************FAMILY_end_here*****************/
+
+
+/************************ben_ad_start_here*****************/
+
+
+.two_images img {
+    width: 40%;
+    float: right;
+    margin-top: 15%;
+}
+.two_images1 img {
+    width: 35%;
+    float: left;
+    margin-top: 15%;
+}
+/************************ben_ad_end_here*****************/
+
+
+/************************three_start_here*****************/
+
+
+.three_img p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    text-align: center;
+    margin-top: 4%;
+    font-size: 1.9em;
+}
+.three_img img {
+    width: 100%;
+    margin: 0 auto;
+}
+section.three_images {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.three_images_btn {
+    background: transparent;
+    color: #9f5313;
+    border: 2px #9f5313 solid !important;
+    border-radius: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight:300 !important;
+	font-style: normal;
+    padding: 10px 20px 8px 20px !important;
+    margin-top: 3%;
+    font-size: 1.4em !important;
+}
+.three_images_btn:hover {
+    background: #9f5313;
+	color:#fff;
+	border: 2px #9f5313 solid;
+}
+i.fa.fa-times {
+    border: 1px #000 solid;
+    border-radius: 50%;
+    padding: 4px 5px;
+    font-size: 13px;
+}
+.navbar-brand {
+    padding: 0 !important;
+}
+/************************three_end_here*****************/
+
+
+
+/************************four_img_start_here*****************/
+
+
+
+.red {
+    background: #f03643;
+    padding: 6px;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    color: #fff;
+    margin-top: 4%;
+    font-size: 1.5em;
+}
+.yellow {
+    background: #fca928;
+    padding: 6px;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    color: #000;
+    margin-top: 4%;
+}
+.blue {
+    background: #00b0db;
+    padding: 6px;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    color: #000;
+    margin-top: 4%;
+}
+.four_img p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    text-align: center;
+    margin-top: 4%;
+    margin: 0px;
+    line-height: 22px;
+    font-size: 1.6em;
+}
+.four_img img {
+    width: 100%;
+}
+section.four_img {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.four_img_btn {
+    background: transparent;
+    color: #9f5313;
+    border: 2px #9f5313 solid !important;
+    border-radius: 30px;
+    font-size: 20px !important;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight:300 !important;
+	font-style: normal;
+    padding: 10px 20px 8px 20px !important;
+    margin-top: 3%;
+}
+.four_img_btn:hover {
+    background: #9f5313;
+	color:#fff;
+	border: 2px #9f5313 solid;
+}
+.four_img h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 4.3em;
+}
+.pi_nk img {
+    height: 100px;
+    width: 100%;
+}
+
+/************************four_img_end_here*****************/
+
+
+
+/************************left_image_right_text_start_here*****************/
+.left_image_right_text .four_img_btn {
+    background: transparent;
+    color: #9f5313;
+    border: 2px #9f5313 solid;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight:300 !important;
+	font-style: normal;
+    padding: 10px 31px;
+    margin-top: 3%;
+}
+
+.right_text_bl p {
+    margin: 0px;
+    font-family: JournalOT-Bold;
+    color: #231f20;
+    line-height: 50px;
+    font-size: 3.5em;
+}
+.right_text_bl {
+    margin-top: 15%;
+}
+.left_image_bl img {
+    margin-top: -75px;
+    width: 100%;
+}
+
+/************************left_image_right_text_end_here*****************/
+
+
+/************************char_secret_start_here*****************/
+
+
+.char_secret h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+	margin-top:10px;
+}
+section.char_secret {
+    background: #231f20;
+    color: #fff;
+    margin-top: 4%;
+}
+
+
+/************************char_secret_end_here*****************/
+
+
+/************************pi_nk_back_start_here*****************/
+
+
+
+section.pi_nk_back {
+    background-image: url(../images/CharCrustHorizRedArtBackground.jpg);
+}
+.pi_nk_back h2 {
+    font-family: JournalOT-Bold;
+    text-align: center;
+    color: #fff;
+    font-size: 3.6em;
+}
+.pi_nk_back h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    text-align: center;
+    color: #000;
+    font-size: 2.1em;
+}
+.pi_nk_back .four_img_btn {
+    background: transparent;
+    color: #231f20;
+    border: 2px #231f20 solid;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: PacificClipperSGOTBk;
+    padding: 8px 30px;
+    margin-top: 0%;
+}
+
+
+
+/************************pi_nk_back_end_here*****************/
+
+
+/************************share_love_start_here*****************/
+
+
+
+.share_love h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3%;
+    color: #231f20;
+    font-size: 6em;
+}
+.share_love h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #f03643;
+    margin-top: 4%;
+    font-size: 2.6em;
+}
+section.share_love {
+    text-align: center;
+}
+.share_love .four_img_btn {
+    background: transparent;
+    color: #9f5313;
+    border: 2px #9f5313 solid;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 0px;
+}
+
+
+/************************share_love_end_here*****************/
+
+
+/************************certi_fications_start_here*****************/
+
+
+.Fol_low h4 {
+    font-family: CalibriBold;
+    text-align: center;
+    color: #231f20;
+}
+.Fol_img .col-md-2.col-sm-2.col-xs-12 {
+    padding: 0px;
+}
+.certi_fications img {
+    height: 70px;
+    float: left;
+    margin-left: 3px;
+}
+.fir {
+    margin: 0px !important;
+}
+.fir_2 {
+    width: 48% !important;
+    margin: 0px !important;
+}
+.fir_3 {
+    width: 33% !important;
+    margin: 0px !important;
+}
+.certi_fications h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    text-align: left;
+    color: #231f20;
+}
+.certi_fications {
+	text-align:center;
+}
+
+.dfasd label {
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-size: 1.5em;
+}
+.dfasd form {
+    margin-top: 2%;
+}
+.dfasd {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+/************************certi_fications_end_here*****************/
+
+
+
+
+/************************char_secret_start_here*****************/
+
+
+.char_secret2 h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    margin-top: 4%;
+    font-size: 2.6em;
+}
+.char_secret2 p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-size: 1.3em;
+    margin: 0px;
+}
+.char_foo {
+    font-family: CalibriBold;
+    font-size: 18px;
+    margin-top: 3%;
+}
+.char_secret2 i {
+    font-size: 34px;
+}
+.bor_bott {
+    border-bottom: 2px #fff solid;
+    padding-bottom: 2%;
+    margin-bottom: 6%;
+}
+.bor_bott_1 p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    margin-bottom: 12px;
+    font-size: 1.3em;
+}
+.char_secret2 input {
+    width: 80%;
+    border: none;
+    display: inline-block;
+    border-radius: 0px;
+    margin-top: 14%;
+    height: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-size: 1.4em;
+}
+.sub_scribe {
+    border-radius: 0px;
+    font-size: 19px !important;
+    color: #000;
+    background: #fff;
+    margin-left: 3px;
+    font-family: Calibri;
+    margin-top: -7px;
+    padding: 8px 12px !important;
+}
+section.char_secret2 {
+    background: #231f20;
+    color: #fff;
+    margin-top: 4%;
+    padding-bottom: 4%;
+}
+.inner sup {
+    font-size: 52px;
+}
+/************************char_secret_end_here*****************/
+
+
+
+.hihgt img {
+	width:100%;
+}
+
+
+
+/******************************contact_page_start_here*************/
+
+
+
+section.conta_ct {
+    margin-top: 4%;
+}
+.contact_us_text h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #000;
+    border-bottom: 2px #000 solid;
+    font-size: 5.7em;
+    padding-bottom: 1%;
+}
+.contact_us_text h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-size: 2.9em;
+}
+.contact_us_text p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    font-size: 1.2em;
+}
+.form-check input {
+    height: auto !important;
+}
+.all_form input {
+    border-radius: 0px;
+    border: 1px #949599 solid;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-size: 1.5em;
+    height: 42px;
+}
+.all_form select {
+    border-radius: 0px;
+    border: 1px #949599 solid;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-size: 1.5em;
+    height: 42px;
+}
+.all_form textarea {
+    border-radius: 0px;
+    border: 1px #949599 solid;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-size: 1.5em;
+}
+.form_section h3 {
+    color: #231f20;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+}
+input, select, textarea{
+    color: #000;
+}
+textarea:focus, input:focus {
+    color: #ff0000;
+}
+.we_real_people {
+    background: #9f5313;
+    text-align: center;
+    padding: 10px 45px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    margin-top: 10%;
+}
+.we_real_people h1 {
+    margin-top: 6px;
+}
+.we_real_people p {
+    font-weight: bold;
+    font-size: 16px;
+}
+.we_real_people p {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.we_real_people_w h1 {
+    color: #fff !important;
+    font-size: 2.5em !important;
+}
+.fire_one {
+    margin-bottom: 15px;
+    margin-top: 8%;
+}
+section.form_section {
+    margin-bottom: 6%;
+}
+/******************************contact_page_end_here*************/
+
+
+
+/******************************find_store_start_here*************/
+.all_form_store input {
+    border-radius: 0px;
+    border: 1px #949599 solid;
+    font-family: Calibri;
+    font-size: 1.5em;
+    height: 42px;
+}
+.we_real_people_w h1 {
+    margin-top: 6px;
+}
+.all_form_store select {
+    border-radius: 0px;
+    border: 1px #949599 solid;
+}
+.nn h3 {
+    text-align: left;
+}
+.nn {
+    text-align: right;
+}
+.all_form_store textarea {
+    border-radius: 0px;
+    border: 1px #949599 solid;
+}
+.form_section_store h3 {
+    color: #231f20;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+}
+
+.borwn_search {
+    background: #9f5313;
+    border: none;
+    padding: 7px 31px;
+    border-radius: 22px;
+    font-size: 22px;
+    font-family: Calibri;
+    margin-top: 3%;
+}
+
+.we_real_people_w {
+    background: #9f5313;
+    text-align: center;
+    padding: 10px 45px;
+    color: #fff;
+    font-family: Calibri;
+    margin-top: 12%;
+}
+.we_real_people_w p {
+    font-size: 1.3em;
+}
+.down_text_form h4 {
+    color: #231f20;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-weight: bold;
+    margin-top: 10%;
+    font-size: 1.7em;
+}
+.down_text_form p {
+    color: #231f20;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+.down_text_form span {
+    color: #231f20;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+section.form_section_store {
+    margin-bottom: 5%;
+}
+.we_real_people_w2 {
+    padding: 15px;
+    color: #000;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    margin-top: 10%;
+    font-size: 20px;
+    border: 1px #9f5313 solid;
+}
+p.whole_foods {
+    margin-top: 5% !important;
+    font-weight: bold;
+}
+.we_real_people_w2 b {
+    font-size: 1em;
+}
+.we_real_people_w2 p {
+    margin: 0px;
+}
+.borwn_search:hover {
+    background: #9f5313;
+}
+.btn-success.active, .btn-success:active, .open>.dropdown-toggle.btn-success {
+    background-color: #9f5313;
+    border-color: #9f5313;
+}
+.btn-success.focus, .btn-success:focus {
+    color: #fff;
+    background-color: #9f5313;
+    border-color: #9f5313;
+}
+/******************************find_store_end_here*************/
+
+
+
+/******************************share_love_start_here*************/
+
+.form-check label {
+    color: #231f20;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    margin-left: 4%;
+    font-size: 1.3em;
+}
+textarea#exampleFormControlTextarea1 {
+    color: #231f20;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-size: 20px;
+}
+
+
+.Seals1 img {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+/******************************share_love_end_here*************/
+
+
+
+/******************************share_love_end_here*************/
+
+.three_images_btn-1 {
+    background: #9f5313;
+    color: #fff;
+    border: 2px #9f5313 solid;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight:300 !important;
+	font-style: normal;
+    padding: 8px 50px 8px 58px;
+    margin-top: 1%;
+    width: 60%;
+}
+.three_images_btn-go {
+    background: #9f5313;
+    color: #fff;
+    border: 2px #9f5313 solid;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight:300 !important;
+	font-style: normal;
+    padding: 8px 50px 8px 50px;
+    margin-top: 1%;
+}
+span.food_service1 {
+    color: #f03643;
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    text-align: right;
+    font-size: 1em;
+}
+.sorr_text1 {
+    margin-top: 4%;
+}
+.three_images_btn-1:hover {
+    background: #9f5313;
+	color:#fff;
+	border: 2px #9f5313 solid;
+}
+section.pi_nk1 {
+    background-image: url(../images/CharCrustHorizRedArtBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+	margin-bottom:2%;
+}
+h1.only_char {
+    font-family: JournalOT-Bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 3.5em;
+}
+/******************************share_love_end_here*************/
+
+
+
+/******************************all_products_start_here*************/
+
+.borwn_search_product {
+    background: #9f5313;
+    border: none;
+    padding: 4px 38px;
+    border-radius: 30px;
+    font-size: 35px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    float: right;
+    margin-top: 2%;
+}
+
+section.all_products {
+    margin-top: 4%;
+}
+.contact_us_text1 h1 {
+    font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	font-style: normal;
+    font-size: 6em;
+    color: #000;
+    border-bottom: 2px #000 solid;
+}
+.form_section_store h1 {
+    color: #231f20;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    margin: 0;
+    font-size: 3.2em;
+}
+.all_form1 {
+	margin-top:2%;
+}
+.all_form1 select {
+    border-radius: 0px;
+    border: 1px #000 solid;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+}
+.borwn_search_product_add {
+    background: #9f5313;
+    border: none;
+    padding: 4px 30px;
+    border-radius: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    margin-top: 2%;
+    font-size: 2em;
+}
+.one_product {
+    text-align: center;
+    margin-bottom: 10%;
+}
+.all_four_product .container {
+    border-bottom: 2px #000 solid;
+    margin-bottom: 3%;
+}
+.one_product p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    width: 83%;
+    margin: 0 auto;
+    font-size: 1.4em;
+}
+.one_product span {
+    color: #9f5313;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    font-size: 21px;
+}
+.one_product img {
+    width: 100%;
+}
+.one_product h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    margin-top: 0px;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #9f5313;
+    border-color: #9f5313;
+}
+
+/******************************all_products_end_here*************/
+
+
+
+
+/******************************foodservices_start_here*************/
+
+
+
+.food_items h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #000;
+    text-align: center;
+    font-size: 4em;
+}
+.food_items_image img {
+    width: 100%;
+}
+.food_items_image h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10%;
+    color: #231f20;
+}
+.food_items_image p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    color: #231f20;
+    font-size: 1.4em;
+}
+.food_items_image ul li {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    color: #231f20;
+    font-size: 1.3em;
+}
+.food_items_image ul {
+    padding-left: 18px;
+}
+.down_lord h1 {
+    color: #fff;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.7em;
+}
+section.down_lord {
+    background: #231f20;
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.down_lord_four_images h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    text-align: center;
+    color: #231f20;
+    font-size: 1.6em;
+}
+section.down_lord_four_images {
+    text-align: center;
+}
+section.down_lord_pnkk {
+    background-image: url(../images/CharCrustHorizRedArtBackground.jpg);
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+section.down_lord_big img {
+	width:100%;
+}
+section.down_lord1 {
+    background: #231f20;
+}
+.down_lord1 h1 {
+    color: #fff;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.7em;
+}
+
+/******************************foodservices_end_here*************/
+
+
+
+/******************************single_product_gp_start_here*************/
+
+
+/**********left-side************/
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+  }
+ 
+ .carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: none !important;
+  background-repeat: repeat-x;
+}
+ .carousel-control.left {
+  left: 0;
+  right: auto;
+  background-image: none !important;
+  background-repeat: repeat-x;
+}
+#carousel-example-generic {
+    margin: 20px auto;
+    width: 100%;
+}
+
+#carousel-custom {
+	margin: 20px auto;
+	width: 100%;
+}
+#carousel-custom .carousel-indicators {
+    margin: 10px 0 0;
+    overflow: auto;
+    position: static;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+    overflow:hidden;
+}
+#carousel-custom .carousel-indicators li {
+    background-color: transparent;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    display: inline-block;
+    height: auto;
+    margin: 0 !important;
+    width: auto;
+}
+#carousel-custom .carousel-indicators li img {
+    display: block;
+    opacity: 0.5;
+}
+#carousel-custom .carousel-indicators li.active img {
+    opacity: 1;
+}
+#carousel-custom .carousel-indicators li:hover img {
+    opacity: 0.75;
+}
+#carousel-custom .carousel-outer {
+    position: relative;
+}
+.carousel-indicators li img {
+    width: 135px;
+}
+
+
+/**********right-side**********/
+
+
+
+.rgt-sec h3 {
+	font-weight: bold;
+}	
+.rgt-sec h5 {
+    line-height: 24px;
+    font-family: Calibri;
+    color: #231f20;
+    font-size: 21px;
+}
+.rgt-sec .info {
+    line-height: 22px;
+}
+.rgt-sec .txt-dec {
+    color: #9f5313;
+    font-size: 24px;
+    font-family: Calibri;
+    font-size: 1.5em;
+}
+.rgt-sec {
+    padding-right: 11%;
+}
+h5.ftr {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    font-size: 1.8em;
+}
+.rgt-sec .circle {
+    border: 1px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    padding: 12px;
+    font-size: 1.11em;
+    height: 65px;
+    line-height: 12px;
+    width: 65px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    font-weight: bold;
+    color: #000;
+}
+.cart {
+    margin-top: 21%;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.ddwws {
+    margin-top: 28%;
+    text-align: right;
+}
+.num {
+    border: 1px solid #9f5313;
+    text-align: center;
+    color: #000;
+    font-size: 3em;
+}
+.num1 {
+    text-transform: uppercase;
+    background-color: #9f5313;
+    border-radius: 33px;
+    margin-left: 30px;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 10px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    width: 90%;
+}
+.num1 a {
+	color: #fff;
+	text-decoration: none;
+}
+.pin {
+	/*text-align: center;*/
+}
+.pin i {
+    background: #9f5313;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1.5em;
+}
+.fb {
+	/*text-align: center;*/
+}
+.fb i {
+	background: #9f5313;
+	padding: 10px 12px;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 4px;
+}
+.inst {
+	/*text-align: center;*/
+}
+.inst i {
+	background: #9f5313;
+	padding: 10px 9px;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 4px;
+}
+.sec {
+    margin-top: 30px;
+    color: #f03643;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	font-style: normal;
+    text-align: center;
+}
+.bor_bottwww {
+    border-top: 2px #000 solid;
+    padding-top: 2%;
+}
+.above-text strong {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    color: #231f20;
+    font-size: 1.7em;
+}
+.sec .text-sec {
+    font-weight: bold;
+    font-size: 3.1em;
+}
+
+.above-text {
+	border-top: 2px solid #000;
+}
+.above-text .rel {
+	text-align: center;
+	font-size: 15px;
+	padding-top: 20px;
+}
+.pro-info img {
+	width: 100%;
+}
+.midd {
+    border-bottom: 2px solid #000;
+    margin-bottom: 3%;
+}
+.pro-info .mar {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    text-align: center;
+    color: #231f20;
+    font-size: 1.7em;
+}
+.rgt-sec h3 {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	font-style: normal;
+    color: #000;
+    margin-top: 9%;
+    margin-bottom: 0px;
+    font-size: 2.3em;
+}
+.rgt-sec strong {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    color: #231f20;
+    font-size: 1.5em;
+}
+.rgt-sec p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    color: #231f20;
+    line-height: 22px;
+    font-size: 1.5em;
+}
+
+
+/******************************single_product_gp_end_here*************/
+
+
+
+/******************************about_us_start_here*************/
+
+
+section.about_us {
+    margin-top: 4%;
+}
+.about_us_text h1 {
+    font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	font-style: normal;
+    color: #000;
+    border-bottom: 2px #000 solid;
+    font-size: 4.5em;
+}
+.about_us_text p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    line-height: 40px;
+    font-size: 2.5em;
+}
+.img_main img {
+    width: 100%;
+	transform: rotate(-1deg);
+    box-shadow: 0px 0px 38px #000;
+	margin-top: 5%;
+}
+.img_main_1 img {
+    width: 80%;
+    transform: rotate(3deg);
+    margin-top: 5% !important;
+    margin: 0 auto;
+    box-shadow: 0px 0px 38px #000;
+}
+.coffee_mug_img img {
+    width: 100%;
+}
+section.coffee_mug {
+    margin-top: 8%;
+}
+.coffee_mug_text p {
+    font-family: 'Special Elite', cursive;
+	font-weight:400;
+	font-style: normal;
+    color: #231f20;
+    margin-top: 20%;
+    font-size: 1.5em;
+}
+.uncle_anuty_text p {
+    font-family: 'Special Elite', cursive;
+	font-weight:400;
+	font-style: normal;
+    color: #231f20;
+    font-size: 1.5em;
+    margin-top: 20%;
+}
+.uncle_anuty_text h4 {
+    font-family: Journal-Bold;
+    font-style: italic;
+    font-size: 1.5em;
+}
+.uncle_anuty img {
+    width: 100%;
+    transform: rotate(2deg);
+}
+.bel_den img {
+    width: 100%;
+    transform: rotate(-5deg);
+    margin-top: -200px;
+    box-shadow: 0px 0px 20px #000;
+	z-index:-1;
+	position:relative;
+}
+.uncle_anuty_text img {
+    width: 31%;
+    float: right;
+    margin-top: 4%;
+}
+.bel_den p {
+    font-family: Journal-Bold;
+    font-style: italic;
+    transform: rotate(-4deg);
+    margin-left: 11%;
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+.mix_images img {
+    width: 93%;
+    margin: 0 auto;
+    float: right;
+}
+.note p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    color: #231f20;
+    font-size: 20px;
+}
+
+/******************************about_us_end_here*************/
+
+
+
+
+/******************************about_us_end_here*************/
+
+
+.head strong {
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    color: #231f20;
+}
+.lruhy strong {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    color: #231f20;
+    font-size: 1.33em;
+}
+.found_have {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    color: #231f20;
+    font-size: 1.7em;
+}
+h1.share {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	font-style: normal;
+    color: #000;
+    text-align: center;
+    font-size: 6em;
+}
+
+
+/******************************about_us_end_here*************/
+
+
+
+/******************************whole_landing_start_here*************/
+
+.jui_ces_1 p {
+    font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	font-style: normal;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 5%;
+    font-size: 6em;
+}
+button.ama_zing_1 {
+    background: #9f5313;
+    border: none;
+    border-radius: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    margin-bottom: 1%;
+    width: 100%;
+    width: 65%;
+    font-size: 1.55em;
+}
+.three_bb {
+    text-align: center;
+}
+
+button.ama_zing_1:hover {
+    background: #9f5313;
+}
+section.down_banner_section {
+    background-image: url(../images/CharCrustHorizRedArtBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.our_original h1 {
+    font-family: JournalOT-Bold;
+    text-align: center;
+    font-size: 3.3em;
+}
+.our_original p {
+    font-family: 'Josefin Sans', sans-serif;
+	font-weight:300;
+	font-style: normal;
+    color: #231f20;
+    font-size: 1.44em;
+}
+.clean_label ul li {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    color: #231f20;
+    font-size: 1.11em;
+}
+.clean_label ul {
+    padding: 20px;
+    padding-top: 0px;
+}
+.clean_label img {
+    width: 100%;
+    margin-top: 40%;
+}
+.clean_label i {
+    font-size: 70px;
+    margin-top: 30%;
+}
+section.kos_her {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+button.ama_zing_2 {
+    background: transparent;
+    border: none;
+    border-radius: 22px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400 !important;
+	font-style: normal;
+    margin-bottom: 1%;
+    color: #9f5313;
+    border: 2px #9f5313 solid;
+    padding: 6px 26px;
+    margin-top: 2%;
+    font-size: 1.77em;
+}
+.butt_ppoo {
+    text-align: center;
+    margin-bottom: 4%;
+}
+.three_bb {
+    text-align: center;
+}
+
+button.ama_zing_2:hover {
+    background: #9f5313;
+}
+/******************************whole_landing_end_here*************/
+
+
+
+/******************************all_recipe_start_here*************/
+
+
+
+.col-sm-12.heading .head {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #000;
+    border-bottom: 2px #000 solid;
+    margin-top: 7%;
+    font-size: 4.5em;
+    padding-bottom: 2%;
+}
+
+.pull-right.max-img-width {
+	width: 100%;
+	/* margin-left: 50px; */
+	height: 470px;
+}
+.left.carousel-control {
+	width: 0;
+}
+.right.carousel-control {
+	width: 0;
+}
+.pull-right {
+	float: right;
+	/* padding: 5px 5px; */
+	background: #9f5313;
+	color: #fff;
+	border: 1px solid #fff;
+}
+.nxt {
+	background: #9f5313;
+}
+.button {
+	background: #fff;
+	width: 50%;
+	text-align: center;
+	/* height: 29px; */
+	border-radius: 20px;
+	font-size: 20px;
+	margin-left: 20px;
+	padding: 0px;
+	text-transform: uppercase;
+	line-height: 42px;
+}
+.see {
+	height: 40px;
+	/* width: 100%; */
+}
+.slider-text {
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 8px 39px;
+    padding: 26px 30px;
+}
+.a-a-b-c-r{
+	margin-bottom:50px;
+}
+
+.button a {
+	color: #9f5313;
+	text-decoration: none;
+}
+.main .sub-head {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    margin-bottom: 0px;
+    font-size: 3em;
+}
+.main .text {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    font-size: 1.8em;
+}
+.no-pade h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 0px;
+    font-size: 2em;
+}
+.no-pade h1 {
+    font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	font-style: normal;
+    margin-top: 10px;
+    font-size: 2.7em;
+}
+.pre_hert li {
+    font-family: Calibri;
+    text-align: left;
+    font-size: 1.3em !important;
+}
+.pre_hert li {
+    font-size: 18px;
+    font-family: Calibri;
+}
+.allee {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+}
+
+
+.drop {
+	margin-top: 20px;
+}
+
+.btn-default {
+	color: #333;
+	background-color: #fff;
+	border-color: #000;
+	/* border-radius: none; */
+}
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	/* border-radius: 4px; */
+}
+.btn.btn-default.dropdown-toggle {
+	border: 1px solid #000;
+	border-radius: 1px;
+}
+.img-sec {
+	margin-top: 30px;
+}
+.kind .pare-head {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+}
+.kind a {
+	font-weight: bold;
+	color: #9f5313;
+	text-decoration: none;
+}
+.kind img {
+    width: 100%;
+    padding: 10px 20px;
+    height: auto;
+}
+.para {
+	text-align: center;
+	padding: 0px 10px;
+}
+.kind .info {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-size: 1.7em;
+}
+section.all_filters .container {
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+}
+
+.spacing2 .carousel-inner {
+    background: #9f5313;
+}
+.no-pade{
+	padding:0;
+}
+p.mfdsmfl {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+    font-size: 1.8em;
+}
+
+a#read_more:focus, a:hover {
+    text-decoration: none;
+}
+/******************************all_recipe_end_here*************/
+.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .open>.dropdown-toggle.btn-success.focus, .open>.dropdown-toggle.btn-success:focus, .open>.dropdown-toggle.btn-success:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000 !important;
+}
+/************************vikas-made-single-recipe-ban_start_here*****************/
+.single-recipe-ban {
+    background-image: url(../images/SpiceSpoonsNotepad.png);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 680px;
+    background-repeat: no-repeat;
+}
+
+
+.crust-recipe-inn img {
+    margin-top: 12%;
+    border: 12px solid #fff;
+    transform: rotate(-6deg);
+}
+.ingredients-single-recp-right {
+    font-weight: bold;
+    padding-left: 7%;
+}
+.single-serv-ban p{
+	    font-family: 'Josefin Sans', sans-serif;
+	font-weight:600;
+	font-style: normal;
+		font-size:25px;
+}
+.single-serv-ban {
+    background: #231f20;
+    color: #fff;
+    padding: 16px 0;
+}
+
+.gor-recipe-inn{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:600;
+	font-style: normal;
+	
+}
+.gor-recipe-inn h2 {
+    font-size: 3.5em;
+    text-align: center;
+}
+.gor-recipe-inn p {
+    text-align: center;
+    font-size: 2em;
+}
+.ingredients-single-recp{
+	background:#9f5210;
+	padding:15px;
+}
+
+.line-ing {
+    border: 1px solid #fff;
+    padding: 13px 27px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+}
+.prodct-re {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid #9f5210;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+.p-a-recp{
+	text-align:center;
+	margin-bottom:12px;
+}
+.ama_zing-recp {
+    background: #9f5313;
+    border: none;
+    border-radius: 22px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    padding: 7px 28px;
+}
+.p-a-recp img {
+    width: 100%;
+}
+.ingredients-single-recp-right p {
+    font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+	font-style: normal;
+    font-size: 17px;
+}
+.line-ing b {
+    font-size: 28px;
+}
+.ingredients-single-recp-right b {
+    font-size: 28px;
+}
+.controllers .le_ft {
+    margin-top: 6em;
+    color: #000;
+    margin-left: -30px;
+}
+.controllers .rig_ht {
+    margin-top: 6em;
+    color: #000;
+    margin-right: -30px;
+}
+/************************single-recipe-ban_end_here*****************/
+
+@media only screen and (max-width: 1199px) {
+.nav_bar .navbar-nav>li {
+    margin-left: 0px;
+}
+.gor-recipe-inn h2 {
+    font-size: 2.5em;
+}
+.p-a-recp h4 {
+    font-size: 1em;
+}
+.single-serv-ban p {
+    font-size: 1.5em;
+}
+.no-pade h3 {
+    font-size: 2em;
+}
+.down_lord_four_images h4 {
+    font-size: 1.3em;
+}
+.pre_hert li {
+    font-size: 1em !important;
+}
+.no-pade h1 {
+    font-size: 2em;
+}
+.no-pade img {
+    height: auto;
+    width: 100%;
+}
+.kind .info {
+    font-size: 1.4em;
+}
+.form_section_store h1 {
+    font-size: 2.5em;
+}
+.char_secret2 input {
+    width: 70%;
+}
+.certi_fications img {
+    margin-left: 1px;
+}
+.char_foo {
+    font-size: 16px !important;
+}
+.cart {
+    margin-top: 4%;
+}
+.ddwws {
+    margin-top: 6%;
+}
+.rgt-sec p {
+    font-size: 1.5em;
+}
+h1.only_char {
+    font-size: 33px;
+}
+.dry_rub h3 {
+    font-size: 1.3em;
+}
+button.ama_zing_1 {
+    width: 100%;
+}
+.navbar-brand>img {
+    margin-top: -40px;
+}
+.a-a-b-c-r {
+    margin-bottom: 23%;
+}
+.jui_ces_1 p {
+    line-height: 37px;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    font-size: 6em;
+}
+.our_original h1 {
+    font-size: 2.66em;
+}
+.clean_label h3 {
+    font-size: 1em;
+}
+.jui_ces p {
+    font-size: 1em;
+}
+section.Seals {
+    height: 470px;
+}
+.fam_lll h3 {
+    font-size: 1.3em;
+}
+.TENDER h1 {
+    font-size: 2.5em;
+}
+.our_char p {
+    padding-left: 0px;
+    font-size: 1.4em;
+}
+.about_us_text p {
+    line-height: 25px;
+    font-size: 2em;
+}
+.bel_den img {
+    margin-top: 40px;
+}
+.our_char1 p {
+    font-size: 1.4em;
+    padding-right: 0px;
+}
+.two_images img {
+    margin-top: 10%;
+}
+.two_images1 img {
+    margin-top: 4%;
+}
+.char_secret h2 {
+    font-size: 1.4em;
+}
+.pi_nk_back h2 {
+    font-size: 36px;
+}
+.pi_nk_back h3 {
+    font-size: 1.3em;
+}
+.share_love h2 {
+    font-size: 2.4em;
+}
+.three_images_btn-1 {
+    width: 100%;
+}
+.one_product h2 {
+    font-size: 2em;
+}
+.one_product p {
+    width: 100%;
+}
+.borwn_search_product_add {
+    font-size: 22px;
+}
+.rgt-sec h3 {
+    font-size: 2em;
+}
+.carousel-indicators li img {
+    width: 109px;
+}
+}
+@media only screen and (max-width: 990px) {
+	.nav_bar .navbar-nav>li>a {
+    font-size: 13px;
+}
+.form_section_store h1 {
+    font-size: 1.8em;
+}
+.char_secret2 input {
+    width: 67%;
+}
+.dry_rub h3 {
+    font-size: 13px;
+}
+.certi_fications img {
+    width:32%;
+}
+.char_secret2 h4 {
+    font-size: 2em;
+}
+.one_product p {
+    font-size: 14px;
+}
+.one_product h2 {
+    font-size: 1.3em;
+}
+
+.four_img_1 {
+    height: auto;
+}
+.no-pade img {
+	height:auto !important;
+}
+.main .sub-head {
+    font-size: 2em;
+}
+
+.navbar-right {
+    float: right!important;
+    margin-right: -24px;
+}
+
+.hfghfg {
+    width: 60% !important;
+}
+.dadsd {
+    width: 34% !important;
+}
+.we_real_people_w h1 {
+    font-size: 2em !important;
+}
+.form_section_store h3 {
+    font-size: 1.2em;
+}
+.single-recipe-ban {
+    height: 430px;
+}
+.single-serv-ban p {
+    font-size: 1em;
+}
+.contact_us_text h1 {
+    font-size: 2.7em;
+}
+.contact_us_text h2 {
+    font-size: 1.5em;
+}
+}
+@media only screen and (max-width: 768px) {
+.nav_bar .navbar-nav>li>a {
+    font-size: 0.9em;
+}
+.controllers .le_ft {
+    margin-left:0px;
+}
+.controllers .rig_ht {
+    margin-right: 0px;
+}
+.navbar-brand>img {
+    margin-top: -20px;
+    width: 80%;
+}
+.navbar-brand>img {
+    margin-top: -26px;
+}
+.char_secret2 h4 {
+    font-size: 2em;
+}
+.char_secret2 input {
+    width: 100%;
+    margin-bottom: 2%;
+	margin-top: 6%;
+}
+.sub_scribe {
+    margin: 0px;
+}
+.char_foo {
+    font-size: 13px !important;
+}
+.certi_fications img {
+    width: 32%;
+}
+.bor_bott_1 p {
+    font-size: 14px;
+}
+.char_secret2 p {
+    font-size: 0.9em;
+}
+.rgt-sec .txt-dec {
+    font-size: 18px;
+}
+.col-sm-12.heading .head {
+    font-size: 2em;
+}
+.slider-text {
+    margin: 0px;
+}
+button.ama_zing_1 {
+    width: 65%;
+    font-size: 1em;
+}
+.our_original h1 {
+    font-size: 2em;
+}
+.clean_label i {
+    font-size: 3em;
+}
+.clean_label img {
+    width: 45px;
+}
+.food_items h1 {
+    font-size: 3em;
+}
+.sec .text-sec {
+    font-size: 1.3em;
+}
+.above-text {
+    width: 100%;
+}
+.a-a-b-c-r {
+    margin-bottom: 65%;
+}
+.kind .info {
+    font-size: 1.1em;
+}
+.main .text {
+    font-size: 1em;
+}
+.pull-right.max-img-width {
+    height: 550px;
+}
+.pro-info .mar {
+    font-size: 18px;
+}
+.rgt-sec h3 {
+    font-size: 1.3em;
+}
+.rgt-sec p {
+    font-size: 1.2em;
+}
+.carousel-indicators li img {
+    width: 82px;
+}
+.one_product p {
+    font-size: 1em;
+}
+.down_lord1 h1 {
+    font-size: 16px;
+}
+.food_items_image h2 {
+    font-size: 1.5em;
+}
+.down_lord_four_images h4 {
+    font-size: 1em;
+}
+.navbar-brand {
+    padding: 15px 10px;
+}
+.dry_rub h3 {
+    font-size: 0.9em;
+}
+section.Seals {
+    height: 350px;
+}
+button.ama_zing {
+    margin-top: 16%;
+}
+.contact_us_text p {
+    font-size: 13px;
+}
+.we_real_people p {
+    font-size: 15px;
+}
+.fam_lll h3 {
+    font-size: 0.8em;
+}
+.TENDER h1 {
+    font-size: 2em;
+}
+.our_char p {
+    font-size: 1.2em;
+}
+.our_char1 p {
+    font-size: 1.2em;
+}
+.three_img p {
+    font-size: 20px;
+}
+.four_img p {
+    font-size: 20px;
+}
+.right_text_bl p {
+    font-size: 2.8em;
+}
+.right_text_bl {
+    margin-top: 10%;
+}
+.char_secret h2 {
+    font-size: 1.2em;
+}
+.pi_nk_back h2 {
+    font-size: 2em;
+}
+.pi_nk_back h3 {
+    font-size: 1.2em;
+}
+.we_real_people {
+    padding: 10px 26px;
+}
+.pi_nk_back .four_img_btn {
+    font-size: 15px;
+    padding: 6px 18px;
+}
+.share_love h2 {
+    font-size: 1.7em;
+}
+
+.navbar-toggle .icon-bar {
+    background: #000;
+}
+.navbar-toggle {
+    background: #fff;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.navbar-brand>img {
+    margin-top: -26px;
+    width: 45%;
+}
+.one_product h2 {
+    font-size: 2.3em;
+}
+.one_product p {
+    font-size: 1.5em;
+}
+	.ingredients-single-recp-right {
+    padding-left: 2%;
+}
+.food_items h1 {
+    font-size: 2em;
+}
+	.single-recipe-ban {
+    height: auto;
+}
+.single-serv-ban p {
+    font-size: 15px;
+}
+.gor-recipe-inn h2 {
+    font-size: 25px;
+}
+.gor-recipe-inn p {
+    font-size: 17px;
+}
+.line-ing {
+    padding: 12px 16px;
+}
+.p-a-recp img {
+    height: auto;
+}
+.crust-recipe-inn img {
+    margin-top: 19%;
+    margin-bottom: 18%;
+}
+.ddwws {
+    text-align: center;
+}
+.slider-text {
+    margin: 8px 8px;
+    padding: 20px 0px;
+}
+.rgt-sec {
+    padding-right: 0%;
+}
+.col-sm-12.heading .head {
+    margin-top: 6%;
+    font-size: 3.6em;
+}
+.a-a-b-c-r {
+    margin-bottom: 84%;
+}
+.allee {
+    margin-bottom: 2%!important;
+}
+.kind img {
+    padding:0px;
+    height: auto;
+}
+#carousel-custom .item img {
+    width: 100%;
+}
+.carousel-indicators li img {
+    width: 168px;
+}
+.jui_ces_1 p {
+    line-height: 1px;
+    margin-top: 3%;
+    font-size: 3em;
+}
+button.ama_zing_1 {
+    width: 100%;
+}
+.down_banner_section {
+    padding: 0px !important;
+    text-align: center;
+}
+.fam_lll h3 {
+    font-size: 0.8em !important;
+}
+.our_original h1 {
+    font-size: 1.7em;
+}
+.our_original p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+.clean_label i {
+    margin: 0px;
+}
+.clean_label i {
+    font-size: 8em;
+}
+.clean_label img {
+    width: 30%;
+    margin-top: 0%;
+}
+.clean_label {
+    text-align: center;
+}
+.clean_label ul li {
+    list-style: none;
+}
+#carousel-custom .carousel-indicators {
+    text-align: left;
+}
+#carousel-custom .carousel-indicators li {
+    margin-left: 0px !important;
+}
+.rgt-sec h3 {
+    font-size: 3.7em;
+    margin: 0px;
+}
+.pro-info img {
+    height: auto;
+}
+.rgt-sec .circle {
+    margin-left: 2%;
+}
+.coffee_mug_text p {
+    margin-top: 0px;
+}
+.uncle_anuty_text p {
+    margin-top: 0px;
+}
+.bel_den img {
+    width: 70%;
+    margin: 0 auto;
+}
+.uncle_anuty img {
+    width: 70%;
+    margin: 0 auto;
+}
+.uncle_anuty_text {
+    margin-top: 6%;
+}
+.about_us_text p {
+    font-size: 1.3em;
+}
+.img_main_1 img {
+    width: 100%;
+    margin-top: 12% !important;
+}
+.food_items_image img {
+    height: auto;
+}
+.food_items h1 {
+    font-size: 4em;
+}
+.one_product img {
+    width: 100%;
+    height: auto;
+}
+.we_real_people {
+    margin-top: 2%;
+}
+.fire_one {
+    margin-top: 2%;
+}
+.three_images_btn-1 {
+    padding: 8px 0px 8px 0px;
+}
+.three_images_btn-1 {
+    width: 100%;
+    font-size: 0.8em;
+}
+.FAMILY img.img-responsive {
+    margin-top: 18px;
+    margin-bottom: 0px;
+    width: 60%;
+    margin: 0 auto;
+}
+.dry_rub h3 {
+    text-align: center;
+    margin-bottom: 6%;
+    font-size: 1.2em;
+}
+.share_love .four_img_btn {
+    font-size: 16px;
+    width: 100%;
+}
+section.Seals {
+    text-align: center;
+	    height: 260px;
+}
+button.ama_zing {
+    float: none;
+    width: 100%;
+    margin-top: 0%;
+    font-size: 0.5em;
+}
+section.Seals {
+    height: 230px;
+}
+section.FAMILY {
+    padding-top: 6%;
+}
+.fam_lll h3 {
+    font-size: 22px;
+    text-align: center;
+}
+.three_img {
+    margin-top: 10%;
+}
+.four_img h1 {
+    font-size: 30px;
+}
+.four_img {
+    margin-bottom: 6%;
+}
+.left_image_bl img {
+    margin-top: 0px;
+}
+.pi_nk_back h2 {
+    font-size: 17px;
+}
+.share_love h1 {
+    font-size: 50px;
+}
+.share_love h2 {
+    font-size: 1em;
+}
+.Fol_img img {
+    margin-bottom: 4%;
+    width: 100%;
+}
+.certi_fications img {
+    width: 15%;
+    height: 99px;
+    margin: 0 auto;
+    float: left;
+}
+.fir_2 {
+    width: 23% !important;
+}
+.fir_3 {
+    width: 15% !important;
+}
+.fir {
+    width: 15% !important;
+}
+.char_secret2 p {
+    font-size: 1.2em;
+}
+.char_secret2 input {
+    margin-top: 0%;
+}
+.char_secret2 img {
+    width: 30%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.nav_bar .navbar-nav>li {
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    background: #000;
+    margin-bottom: 1%;
+}
+
+input#City {
+    margin-bottom: 2%;
+}
+input#State {
+    margin-bottom: 2%;
+}
+input#zip {
+    margin-bottom: 2%;
+}
+.inner sup {
+    font-size: 28px;
+}
+}
+@media only screen and (max-width: 667px) {
+.jui_ces_1 p {
+    margin-top: 6%;
+    font-size: 3em;
+}
+.sec .text-sec {
+    font-size: 24px;
+}
+.carousel-indicators li img {
+    width: 150px;
+}
+.single-serv-ban p {
+    font-size: 0.9em;
+}
+button.ama_zing_1 {
+    width: 100%;
+}
+.down_banner_section .fam_lll h3 {
+    font-size: 0.7em !important;
+}
+.butt_ppoo .ama_zing_2 {
+    width: 100%;
+    font-size: 17px;
+}
+.navbar-brand>img {
+    width: 69% !important;
+    height: 79px;
+}
+.ama_zing {
+    width: 100% !important;
+}
+.contact_us_text1 h1 {
+    font-size: 4em;
+}
+}
+@media only screen and (max-width: 600px) {
+	.carousel-indicators li img {
+    width: 133px;
+}
+}
+@media only screen and (max-width: 568px) {
+.ama_zing {
+    width: 100% !important;
+}
+.col-sm-12.heading .head {
+    font-size: 1.3em;
+}
+.carousel-indicators li img {
+    width: 126px;
+}
+}
+@media only screen and (max-width: 425px) {
+.navbar-brand>img {
+    width: 47% !important;
+    height: 108px;
+}
+.gor-recipe-inn h2 {
+    font-size: 2em;
+}
+.prodct-re h2 {
+    font-size: 1.5em;
+}
+.rgt-sec p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+button.ama_zing {
+    width: 100% !important;
+}
+.main .sub-head {
+    font-size: 1.4em;
+}
+.hfghfg {
+    width: 20% !important;
+}
+.jui_ces_1 p {
+    margin-top: 8%;
+    line-height: 16px;
+}
+button.ama_zing_1 {
+    font-size: 12px;
+}
+.butt_ppoo .ama_zing_2 {
+    width: 97%;
+    font-size: 12px;
+}
+.down_banner_section .col-xs-3 {
+    width: 100%;
+}
+.down_banner_section .fam_lll h3 {
+    display: inherit;
+    margin-top: 10px;
+    font-size: 1.11em !important;
+}
+.our_original h1 {
+    font-size: 1.2em;
+}
+#carousel-custom .item img {
+    width: 100%;
+    margin: 0 auto;
+}
+.rgt-sec h3 {
+    font-size: 1.5em;
+}
+.found_have {
+    font-size: 16px;
+    text-align: justify;
+}
+.sec .text-sec {
+    font-size: 1em;
+}
+h1.share {
+    font-size: 2em;
+}
+.above-text {
+    width: auto;
+}
+.we_real_people_w {
+    padding: 10px 14px;
+}
+textarea#exampleFormControlTextarea1 {
+    font-size: 16px;
+}
+.food_items h1 {
+    margin-bottom: 11%;
+    font-size: 2em;
+}
+.borwn_search_product {
+    font-size: 0.2em !important;
+}
+.one_product h2 {
+    font-size: 1.8em;
+}
+.we_real_people h1 {
+    font-size: 25px;
+}
+.sorr_text p {
+    font-size: 1.11em;
+}
+.we_real_people_w p {
+    text-align: justify;
+}
+.contact_us_text h2 {
+    font-size: 1.3em;
+}
+.contact_us_text p {
+    font-size: 1em;
+}
+.all_form input {
+    font-size: 1.3em;
+}
+.all_form_store input {
+    font-size: 1.3em;
+}
+.note p {
+    font-size: 14px;
+}
+.contact_us_text h1 {
+    font-size: 2em;
+}
+.down_lord h1 {
+    font-size: 1em;
+}
+input#City {
+    margin-bottom: 4%;
+}
+input#State {
+    margin-bottom: 4%;
+}
+input#zip {
+    margin-bottom: 4%;
+}
+h1.only_char {
+    font-size: 1em;
+}
+.fir {
+    height: 70px !important;
+}
+.FAMILY img.img-responsive {
+    margin-top: 18px;
+    margin-bottom: 0px;
+    width: 60%;
+    margin: 0 auto;
+}
+.dry_rub h3 {
+    text-align: center;
+    margin-bottom: 6%;
+}
+.our_char p {
+    text-align: justify;
+}
+.our_char1 p {
+    text-align: justify;
+}
+.share_love .four_img_btn {
+    font-size: 14px !important;
+    width: 100%;
+}
+button.ama_zing {
+    float: none;
+    width: 100%;
+    margin-top: 6%;
+}
+.fam_lll h3 {
+    font-size: 0.6em !important;
+}
+.TENDER h1 {
+    font-size: 1.3em;
+}
+section.Seals {
+    height: 230px;
+}
+section.FAMILY {
+    padding-top: 6%;
+}
+.fam_lll h3 {
+    font-size: 12px;
+    text-align: left;
+}
+.three_img {
+    margin-top: 10%;
+}
+.four_img h1 {
+    font-size: 30px;
+}
+.four_img {
+    margin-bottom: 6%;
+}
+.left_image_bl img {
+    margin-top: 0px;
+}
+.pi_nk_back h2 {
+    font-size: 17px;
+}
+.share_love h1 {
+    font-size: 50px;
+}
+.Fol_img img {
+    margin-bottom: 4%;
+}
+.certi_fications img {
+    width: 24%;
+    height: 90px;
+    margin: 0 auto;
+}
+.fir_2 {
+    width: 40% !important;
+}
+.fir_3 {
+    width: 25% !important;
+}
+
+.nav_bar .navbar-nav>li {
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    background: #000;
+    margin-bottom: 1%;
+}
+.navbar-brand {
+    padding: 15px 10px;
+}
+.carousel-indicators li img {
+    width: 90px;
+}
+#carousel-custom .carousel-indicators li {
+    margin-left: 0px !important;
+}
+}
+@media only screen and (max-width: 375px) {
+.right_text_bl p {
+    font-size: 2.3em;
+}
+.contact_us_text1 h1 {
+    font-size: 3em;
+}
+.carousel-indicators li img {
+    height: auto;
+    width: 77px;
+}
+.pi_nk_back h2 {
+    font-size: 0.9em;
+}
+.share_love h2 {
+    font-size: 0.8em;
+}
+.char_secret2 p {
+    font-size: 0.9em;
+}
+.navbar-brand {
+    padding: 15px 0px;
+}
+#carousel-custom .carousel-indicators li {
+    margin-left: 0px !important;
+}
+.share_love .four_img_btn {
+    font-size: 12px !important;
+    width: 100%;
+}
+.certi_fications img {
+    height: 80px;
+}
+.food_items h1 {
+    font-size: 1.5em;
+}
+}
+@media only screen and (max-width: 320px) {
+.navbar-brand {
+    width: 78%;
+}
+button.ama_zing_1 {
+    font-size: 0.6em;
+}
+.three_images_btn-1 {
+    font-size: 0.4em;
+}
+.butt_ppoo .ama_zing_2 {
+    width: 100%;
+    font-size: 0.7em;
+}
+.navbar-brand>img {
+    width: 51% !important;
+    height: 106px;
+}
+.dry_rub h3 {
+    font-size: 0.9em;
+}
+button.ama_zing {
+    font-size: 0.9em;
+}
+.food_items h1 {
+    font-size: 1.3em;
+}
+}
